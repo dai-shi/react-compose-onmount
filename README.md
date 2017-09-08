@@ -21,7 +21,7 @@ Function components lack local state, lifecycle methods, and so on.
 Local state is sometimes important to keep UI state, for example,
 a string in a text field while typing, which shouldn't be put in global state.
 For the local state, [react-compose-state](https://github.com/dai-shi/react-compose-state) should help.
-The second case is when you want to do something when a component appears.
+Another case is when you want to do something when a component appears.
 For example, you might need to fetch data from network.
 With class-based components, you can use the `componentDidMount` lifecycle method.
 This package is for the specific case when you want to only attach
