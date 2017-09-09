@@ -65,17 +65,17 @@ const SomePage = composeWithOnMount(onMount, onUnmount)(() => (
 ));
 ```
 
-With option:
+With options:
 
 ```javascript
 const onMount = () => window.alert('mount!');
 const onUnmount = () => window.alert('unmount!');
-const option = {
+const options = {
   onMount: 'componentWillMount',
   onUnmount: 'componentDidUnmount',
 };
 
-const SomePage = composeWithOnMount(onMount, onUnmount, option)(() => (
+const SomePage = composeWithOnMount(onMount, onUnmount, options)(() => (
   <div>
     <h1>Some Page</h1>
   </div>
