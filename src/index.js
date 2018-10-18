@@ -13,6 +13,7 @@ export const composeWithOnMount = (onMount, onUnmount, options = {}) => BaseComp
         this[forUnmount] = function () { onUnmount(this.props); };
       }
     }
+
     render() {
       return (<BaseComponent {...this.props} />);
     }
