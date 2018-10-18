@@ -5,4 +5,4 @@ type Options = {
 };
 export type composeWithOnMount =
 	<P extends {}>(onMount: Callback<P>, onUnmount?: Callback<P>, options?: Options) =>
-		React.ComponentType<P>;
+    React.ComponentType<P> => React.ComponentType<P>;
