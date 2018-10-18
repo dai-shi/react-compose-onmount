@@ -1,6 +1,10 @@
 # Change Log
 
 ## [Unreleased]
+
+## [1.0.0] - 2018-10-18
+### Added
+- fix the API with v1.0.0
 ### Changed
 - update devDependencies
 

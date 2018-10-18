@@ -1,13 +1,14 @@
 {
   "name": "react-compose-onmount",
   "description": "A helper function to attach onmount handler to stateless function components",
-  "version": "0.2.0",
-  "author": "Daishi Kato <daishi@axlight.com>",
+  "version": "1.0.0",
+  "author": "Daishi Kato",
   "repository": {
     "type": "git",
     "url": "https://github.com/dai-shi/react-compose-onmount.git"
   },
   "main": "./dist/index.js",
+  "module": "./src/index.js",
   "scripts": {
     "compile": "babel src -d dist",
     "test": "npm run eslint && npm run jest",
