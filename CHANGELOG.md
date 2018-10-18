@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+### Changed
+- fix maybe type
 
 ## [1.1.0] - 2018-10-18
 ### Added

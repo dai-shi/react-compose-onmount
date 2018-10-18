@@ -1,4 +1,4 @@
-type Callback<P> = ((props: P) => void) | undefined;
+type Callback<P> = ((props: P) => void) | void;
 type Options = {
   onMount: string | undefined,
   onUnmount: string | undefined,
