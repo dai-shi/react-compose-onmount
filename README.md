@@ -3,6 +3,7 @@ react-compose-onmount
 
 [![Build Status](https://travis-ci.org/dai-shi/react-compose-onmount.svg?branch=master)](https://travis-ci.org/dai-shi/react-compose-onmount)
 [![npm version](https://badge.fury.io/js/react-compose-onmount.svg)](https://badge.fury.io/js/react-compose-onmount)
+[![bundle size](https://badgen.net/bundlephobia/minzip/react-compose-onmount)](https://bundlephobia.com/result?p=react-compose-onmount)
 
 A helper function to attach onmount handler to
 stateless function components.
