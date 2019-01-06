@@ -15,7 +15,7 @@ export const composeWithOnMount = (onMount, onUnmount, options = {}) => BaseComp
     }
 
     render() {
-      return (<BaseComponent {...this.props} />);
+      return React.createElement(BaseComponent, this.props);
     }
   }
 );
