@@ -1,7 +1,10 @@
 # Change Log
 
 ## [Unreleased]
+
+## [1.2.0] - 2019-01-06
 ### Changed
+- no jsx in src
 - fix maybe type
 
 ## [1.1.0] - 2018-10-18
